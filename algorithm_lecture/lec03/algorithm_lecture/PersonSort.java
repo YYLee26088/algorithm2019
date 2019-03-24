@@ -35,7 +35,7 @@ public class PersonSort {
 		for(int i=a.length-1;i>0;i--) {
 			boolean isEnd=true;
 			for(int j=0;j<i;j++) {
-				if(new PersonComparator().compare(a[j],a[j+1])>0) {//compareTo 메소드 사용
+				if(new PersonComparator().compare(a[j],a[j+1])>0) {
 					swap(a,j,j+1);
 					isEnd=false;
 				}
