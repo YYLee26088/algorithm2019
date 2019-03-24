@@ -7,7 +7,8 @@ package algorithm_lecture;
 import java.util.Arrays;
 
 public class InsertSort {
-
+	
+	//insert sort
 	public static void insertSort(int[] a) {
 		for(int i=1; i<a.length; i++) {
 			int temp=a[i];//°ª º¸°ü

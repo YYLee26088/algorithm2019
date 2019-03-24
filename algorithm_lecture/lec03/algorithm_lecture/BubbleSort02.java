@@ -1,10 +1,9 @@
 package algorithm_lecture;
-
-import java.util.Arrays;
-
 /*
  * bubble sort 개선 구현
  */
+import java.util.Arrays;
+
 public class BubbleSort02 {
 
 	static void swap(int[] a, int i, int j) {
